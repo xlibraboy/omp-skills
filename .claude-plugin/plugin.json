@@ -1,0 +1,19 @@
+{
+  "name": "my-skills",
+  "description": "Curated skills: grilling, domain-modeling, research, prototype, resolving-merge-conflicts, handoff, codebase-design",
+  "version": "0.1.0",
+  "author": {
+    "name": "xlibraboy"
+  },
+  "license": "MIT",
+  "keywords": ["skills", "grilling", "research", "prototype", "domain-modeling"],
+  "skills": [
+    "./skills/grilling",
+    "./skills/codebase-design",
+    "./skills/domain-modeling",
+    "./skills/handoff",
+    "./skills/prototype",
+    "./skills/research",
+    "./skills/resolving-merge-conflicts"
+  ]
+}
