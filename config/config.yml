@@ -1,0 +1,11 @@
+setupVersion: 1
+modelRoles:
+  default: databyte/deepseek-v4-flash:max
+github:
+  enabled: true
+memory:
+  backend: mnemopi
+defaultThinkingLevel: auto
+skills:
+  customDirectories:
+    - ~/.omp/agent/skills/mattpocock

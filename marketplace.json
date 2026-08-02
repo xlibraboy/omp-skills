@@ -1,0 +1,30 @@
+{
+  "name": "omp-skills",
+  "id": "omp-skills",
+  "owner": {
+    "name": "xlibraboy"
+  },
+  "metadata": {
+    "description": "Curated AI-agent skills (mattpocock subset) plus OMP config templates",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "my-skills",
+      "source": "./",
+      "description": "Curated skills: grilling, domain-modeling, research, prototype, resolving-merge-conflicts, handoff, codebase-design",
+      "version": "0.1.0",
+      "author": {
+        "name": "xlibraboy"
+      },
+      "keywords": [
+        "skills",
+        "grilling",
+        "research",
+        "prototype",
+        "domain-modeling"
+      ],
+      "category": "workflow"
+    }
+  ]
+}
