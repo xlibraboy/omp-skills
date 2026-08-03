@@ -2,13 +2,22 @@
 
 ## 1. Install the skills via the marketplace
 
+Each skill is its own plugin, so install only what you need:
+
 ```sh
 omp plugin marketplace add xlibraboy/omp-skills
-omp plugin install my-skills@omp-skills
+omp plugin install grilling@omp-skills research@omp-skills prototype@omp-skills
 ```
 
-This installs the 7 curated skills (grilling, domain-modeling, research,
-prototype, resolving-merge-conflicts, handoff, codebase-design).
+Available plugins: `grilling`, `domain-modeling`, `research`, `prototype`,
+`resolving-merge-conflicts`, `handoff`, `codebase-design`.
+
+Toggle any plugin independently:
+
+```sh
+omp plugin disable <name>@omp-skills
+omp plugin enable <name>@omp-skills
+```
 
 ## 2. Configure providers (models.yml)
 

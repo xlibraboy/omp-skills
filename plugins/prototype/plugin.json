@@ -1,0 +1,10 @@
+{
+  "name": "prototype",
+  "description": "prototype skill",
+  "version": "0.1.0",
+  "author": {
+    "name": "xlibraboy"
+  },
+  "license": "MIT",
+  "skills": ["./skills/prototype"]
+}

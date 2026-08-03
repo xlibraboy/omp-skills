@@ -1,0 +1,10 @@
+{
+  "name": "domain-modeling",
+  "description": "domain-modeling skill",
+  "version": "0.1.0",
+  "author": {
+    "name": "xlibraboy"
+  },
+  "license": "MIT",
+  "skills": ["./skills/domain-modeling"]
+}

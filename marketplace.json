@@ -5,25 +5,85 @@
     "name": "xlibraboy"
   },
   "metadata": {
-    "description": "Curated AI-agent skills (mattpocock subset) plus OMP config templates",
-    "version": "0.1.0"
+    "description": "Curated AI-agent skills (mattpocock subset) packaged as individual OMP plugins plus OMP config templates",
+    "version": "0.2.0"
   },
   "plugins": [
     {
-      "name": "my-skills",
-      "source": "./",
-      "description": "Curated skills: grilling, domain-modeling, research, prototype, resolving-merge-conflicts, handoff, codebase-design",
+      "name": "grilling",
+      "source": "./plugins/grilling",
+      "description": "Stress-test a plan, decision, or idea with relentless one-at-a-time questions",
       "version": "0.1.0",
       "author": {
         "name": "xlibraboy"
       },
-      "keywords": [
-        "skills",
-        "grilling",
-        "research",
-        "prototype",
-        "domain-modeling"
-      ],
+      "keywords": ["grilling", "review", "questioning"],
+      "category": "workflow"
+    },
+    {
+      "name": "domain-modeling",
+      "source": "./plugins/domain-modeling",
+      "description": "Pin down domain terminology / ubiquitous language and record ADRs",
+      "version": "0.1.0",
+      "author": {
+        "name": "xlibraboy"
+      },
+      "keywords": ["domain-modeling", "ubiquitous-language", "adr"],
+      "category": "workflow"
+    },
+    {
+      "name": "research",
+      "source": "./plugins/research",
+      "description": "Investigate a question against high-trust primary sources to Markdown",
+      "version": "0.1.0",
+      "author": {
+        "name": "xlibraboy"
+      },
+      "keywords": ["research", "primary-sources"],
+      "category": "workflow"
+    },
+    {
+      "name": "prototype",
+      "source": "./plugins/prototype",
+      "description": "Build a throwaway prototype to answer a design question",
+      "version": "0.1.0",
+      "author": {
+        "name": "xlibraboy"
+      },
+      "keywords": ["prototype", "design"],
+      "category": "workflow"
+    },
+    {
+      "name": "resolving-merge-conflicts",
+      "source": "./plugins/resolving-merge-conflicts",
+      "description": "Resolve an in-progress git merge/rebase conflict",
+      "version": "0.1.0",
+      "author": {
+        "name": "xlibraboy"
+      },
+      "keywords": ["git", "merge-conflict", "rebase"],
+      "category": "workflow"
+    },
+    {
+      "name": "handoff",
+      "source": "./plugins/handoff",
+      "description": "Compact the current conversation into a handoff doc for another agent",
+      "version": "0.1.0",
+      "author": {
+        "name": "xlibraboy"
+      },
+      "keywords": ["handoff", "context", "compact"],
+      "category": "workflow"
+    },
+    {
+      "name": "codebase-design",
+      "source": "./plugins/codebase-design",
+      "description": "Deep-module design vocabulary for designing/seaming code",
+      "version": "0.1.0",
+      "author": {
+        "name": "xlibraboy"
+      },
+      "keywords": ["design", "deep-module", "seaming"],
       "category": "workflow"
     }
   ]
